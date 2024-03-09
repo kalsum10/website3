@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-VP+8NhGnAIlEGQb1OYprZ6ePQRLr00OTdCx2oMqj6m/mzWnyeP6Sl3w2LqmMwDtn3Rc5uMkmz9iGHMmuz9e1cg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portofolio.css.css">
+</head>
+<body>
+
+<div class="home" id="home">
+    <nav>
+        <header>
+            <h1 class="logo">Porto<span>folio</span></h1>
+        </header>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Educations">Educations</a></li>
+            <li><a href="#Certificate">Certificate</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>        
+    </nav>
+    <audio id="background-music" loop>
+        <source src="IU - Love wins all.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="playMusic()">Play Music</button>
+    
+    <script>
+        function playMusic() {
+            var audio = document.getElementById("background-music");
+            audio.play();
+        }
+    </script>
+    
+
+    <div class="content">
+        <h4>Hello, I'm</h4>
+        <h1>Kalsum Burhani Putri</h1>
+        <h3>19 year old student, currently studying at Mulawarman University majoring 
+            in Information Systems class 22 class B.
+             With a height of 167cm, he has broad interests outside the curriculum, 
+             one of which is wrestling,which he has participated in. 
+             Her hobbies are cooking and shopping,
+            currently focusing on studying Web Programming courses using HTML and CSS,
+             showing her interest in technology and web development.</h3>
+        <a href="#about">More About Me</a>
+    </div>
+</div>
+
+<section class="about" id="about">
+    <div class="about-me">
+        <img src="foto2.jpeg" alt="Foto 2">
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>I not only focus on academics,
+                 but am also active in organizational activities. such as having joined an organization and entered the talent 
+                 and scientific interest division, and often taking part in seminar activities.
+                  I also took the Huawei exam and got a score of 940 and got a certificate for Oracle Academy,
+                   in 2023 I will also take the CPNS exam.</p>
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<section class="educations" id="Educations">
+    <div class="box-educations">
+        <h1>Educa<span>tions</span></h1>
+        <div class="box-kiri">
+            <h3>Junior high school</h3>
+            <p>I study at SMPN 17 Samarinda in
+                JL. Tatako Sungai Kapih, Sambutan District, Samarinda City</p>
+        </div>
+        <div class="box-tengah">
+            <h3>Senior High School</h3>
+            <p>I study at SMAN 11 Samarinda majoring in science
+                on JL. Bumi Sambutan Asri Plita 4,
+                 Sambutan District, Samarinda City</p>    
+        </div>
+        <div class="box-kanan">
+            <h3>University</h3>
+            <p>I study at Mulawarman University, Faculty of Engineering, Department of Information Systems JL. Sambaliung</p> 
+        </div>
+    </div>
+</section>
+
+
+<section class="Certificate" id="Certificate">
+    <div class="title">
+        <h2>Certi<span>ficate</span></h2>
+        <div class="certificate-images">
+            <a href="sertif2.jpeg" data-lightbox="certificates"><img src="sertif2.jpeg" alt="Certificate 1"></a>
+            <a href="sertif.jpeg" data-lightbox="certificates"><img src="sertif.jpeg" alt="Certificate 2"></a>
+            <a href="sertif3.jpeg" data-lightbox="certificates"><img src="sertif3.jpeg" alt="Certificate 3"></a>
+            <a href="sertif5.jpeg" data-lightbox="certificates"><img src="sertif5.jpeg" alt="Certificate 5"></a>
+            <a href="sertif6.jpeg" data-lightbox="certificates"><img src="sertif6.jpeg" alt="Certificate 6"></a>
+            <a href="sertif7.jpeg" data-lightbox="certificates"><img src="sertif7.jpeg" alt="Certificate 7"></a>
+            <a href="sertif4.jpeg" data-lightbox="certificates"><img src="sertif4.jpeg" alt="Certificate 4"></a>
+            <a href="sertif8.jpeg" data-lightbox="certificates"><img src="sertif8.jpeg" alt="Certificate 8"></a>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="Contact-me" id="contact">
+    <div class="contact-text">
+        <h2>Contact<span>Me</span></h2>
+        <div class="contact-info">
+            <div class="contact-box">
+                <div class="contact">
+                    <p><a href="https://www.instagram.com/xiukall?igsh=MTZtdnY0OHhzb3JtNw==" target="_blank">Instagram</a></p>
+                </div>
+                <div class="contact">
+                    <p><a href="https://www.facebook.com/kalsum.manalah?mibextid=rS40aB7S9Ucbxw6v" target="_blank">Facebook</a></p>
+                </div>
+                <div class="contact">
+                    <p><a href="https://www.tiktok.com/@putrikalxiu?_t=8kRVhOEYV68&_r=1" target="_blank">TikTok</a></p>
+                </div>
+                <div class="contact">
+                    <p><a href="mailto:putrikalsumburhani@gmail.com" target="_blank">Email</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Kalsum Burhani Putri nim 2209116095 Sistem Informasi B'22</p>
+</footer>
+
+</body>
+</html>
